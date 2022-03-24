@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+  padding: 0 50px;
+  overflow-x: hidden;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav li {
+  list-style-type: none;
+  display: inline-block;
+}
+.nav li a {
+  text-decoration: none;
+  color: rgb(186, 194, 202);
+  font-size: 1.7em;
+  padding: 10px 30px;
+}
+
+.nav li a:hover {
+  color: rgb(255, 255, 234);
+  background-color: rgb(43, 42, 42);
+}
+
+.active {
+  background-color: #353b3b;
+  color: #cfac2b;
+}
+
+/* HOME */
+
+.head-words {
+  padding: 0 50px;
+  text-align: center;
+  align-content: center;
+  width: 100%;
+}
+
+.head {
+  font-size: 6.5rem;
+  font-weight: normal;
+  margin-bottom: -90px;
+
+  background: -webkit-linear-gradient(rgb(230, 183, 53), rgb(192, 88, 223));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#head1 {
+  font-size: 7.7rem;
+  font-weight: normal;
+  background: -webkit-linear-gradient(rgb(80, 204, 177), rgb(223, 88, 99));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.head2 {
+  font-size: 3em;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 80px;
+}
+
+.line {
+  border-bottom: 3px solid rgb(206, 148, 61);
+  width: 99%;
+}
+
+.content {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+  font-size: 1.9em;
+}
+.content-head {
+  color: #cfac2b;
+  font-size: 2.1em;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+.content2 p {
+  font-size: 1.9em;
+  padding-top: 25%;
+  text-align: center;
+}
+
+.space {
+  min-height: 50px;
+}
+
+.foot {
+  text-align: center;
+  color: #d9af10;
+  background-color: #000000;
+  padding: 20px;
+  margin-top: 50px;
+  min-height: 60px;
+  border-top: #758283 1.2px solid;
+}
+
+.foot p {
+  padding: 0;
+  font-size: 1.8em;
+  margin: 20px;
+}
+
+/* ABOUT */
+.about-head {
+  text-transform: uppercase;
+  margin-top: 9%;
+  margin-bottom: 3%;
+}
+
+.about-head2 {
+  margin-bottom: 9%;
+}
+
+.words {
+  width: 50%;
+  font-size: 1.8em;
+  padding: 20px;
+}
+.words-head {
+  font-size: 1.9em;
+  color: #cfac2b;
+  text-decoration: underline;
+}
+
+.aside {
+  width: 30%;
+  border: 1px solid black;
+  padding: 0 15px;
+  margin: 0 15px;
+  float: right;
+  overflow: hidden;
+}
+
+.aside h1 {
+  margin-left: 25%;
+}
+
+/* SERVICES */
+.join {
+  padding: 50px;
+  width: 70%;
+  border-radius: 4px;
+  overflow: hidden;
+  min-height: 700px;
+  margin: 5% 20% 0 13%;
+
+  background-color: #222222;
+}
+
+.join p a {
+  color: orange;
+  font-size: 1.5em;
+  margin: 20% 10%;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.join p a:hover {
+  color: rgb(214, 141, 4);
+}
+
+label {
+  margin-left: 10%;
+
+  color: orange;
+  font-size: 1.5em;
+}
+
+.join h2 {
+  color: orange;
+  font-weight: normal;
+  font-size: 1.5em;
+  margin-left: 10%;
+  margin-bottom: 0;
+}
+
+.join select {
+  font-size: 1.5em;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+  display: list-item;
+  border: none;
+  background-color: black;
+  color: white;
+  width: 80%;
+  padding: 25px 10px;
+  margin: 0 10%;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  color: white;
+  font-size: 1.5em;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+[type="email"]:focus {
+  border: 1px solid #000000;
+  background-color: #232424;
+}
+
+input[type="button"] {
+  border: none;
+  background-color: orange;
+  margin: 3% 0 0 45%;
+  padding: 17px 27px;
+  border: none;
+  border-radius: 3px;
+  color: rgb(0, 0, 0);
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background-color: rgb(196, 129, 5);
+  color: white;
+}
+
+.top {
+  text-align: center;
+  padding: 5% 0 0 0;
+}
+
+.top a {
+  color: yellowgreen;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.top a:hover {
+  color: rgb(124, 167, 40);
+}
+
+.hungry {
+  text-align: center;
+}
+
+.hungry h1 {
+  background: -webkit-linear-gradient(rgb(230, 103, 53), rgb(92, 170, 77));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5em;
+}
+
+@media (max-width: 700px) {
+  header nav header li {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+}
